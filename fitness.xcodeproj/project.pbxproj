@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0BB2611A9314BD007544CC /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BB2601A9314BD007544CC /* StartViewController.swift */; };
+		5B2C6A4F1A94FCE10001EF9F /* TrackWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C6A4E1A94FCE10001EF9F /* TrackWeightViewController.swift */; };
+		5B2C6A511A95005B0001EF9F /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C6A501A95005B0001EF9F /* TodayViewController.swift */; };
+		5B2C6A651A9504AD0001EF9F /* MNCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C6A551A9504AD0001EF9F /* MNCalendarHeaderView.m */; };
+		5B2C6A661A9504AD0001EF9F /* MNCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C6A581A9504AD0001EF9F /* MNCalendarView.m */; };
+		5B2C6A671A9504AD0001EF9F /* MNCalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C6A5A1A9504AD0001EF9F /* MNCalendarViewCell.m */; };
+		5B2C6A681A9504AD0001EF9F /* MNCalendarViewDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C6A5C1A9504AD0001EF9F /* MNCalendarViewDayCell.m */; };
+		5B2C6A691A9504AD0001EF9F /* MNCalendarViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C6A5E1A9504AD0001EF9F /* MNCalendarViewLayout.m */; };
+		5B2C6A6A1A9504AD0001EF9F /* MNCalendarViewWeekdayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C6A601A9504AD0001EF9F /* MNCalendarViewWeekdayCell.m */; };
+		5B2C6A6B1A9504AD0001EF9F /* MNFastDateEnumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C6A621A9504AD0001EF9F /* MNFastDateEnumeration.m */; };
+		5B2C6A6C1A9504AD0001EF9F /* NSDate+MNAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C6A641A9504AD0001EF9F /* NSDate+MNAdditions.m */; };
+		5B2C6A6E1A9504DB0001EF9F /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C6A6D1A9504DB0001EF9F /* CalendarViewController.swift */; };
+		5BAFCC581AAD4E1F00B599F3 /* Exercise Complete.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BAFCC571AAD4E1F00B599F3 /* Exercise Complete.png */; };
+		5BAFEC5B1AA30BA3004EF7DB /* workout.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5BAFEC5A1AA30BA3004EF7DB /* workout.mp4 */; };
+		5BB40E541A92131E00F45CB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB40E531A92131E00F45CB0 /* AppDelegate.swift */; };
+		5BB40E591A92131E00F45CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB40E571A92131E00F45CB0 /* Main.storyboard */; };
+		5BB40E5B1A92131E00F45CB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB40E5A1A92131E00F45CB0 /* Images.xcassets */; };
+		5BB40E5E1A92131E00F45CB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BB40E5C1A92131E00F45CB0 /* LaunchScreen.xib */; };
+		5BB40E6A1A92131E00F45CB0 /* FitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB40E691A92131E00F45CB0 /* FitnessTests.swift */; };
+		5BB40E851A92197300F45CB0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB40E841A92197300F45CB0 /* LoginViewController.swift */; };
+		5BB40E871A921DC500F45CB0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB40E861A921DC500F45CB0 /* SettingsViewController.swift */; };
+		5BB40E891A92271C00F45CB0 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB40E881A92271C00F45CB0 /* SettingsTableViewCell.swift */; };
+		7E36063C1BDD80C700B85C9B /* Workouts.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E36063B1BDD80C700B85C9B /* Workouts.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BB40E641A92131E00F45CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB40E461A92131E00F45CB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB40E4D1A92131E00F45CB0;
+			remoteInfo = Fitness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B0BB2601A9314BD007544CC /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartViewController.swift; path = ViewControllers/StartViewController.swift; sourceTree = "<group>"; };
+		5B2C6A4E1A94FCE10001EF9F /* TrackWeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackWeightViewController.swift; path = ViewControllers/TrackWeightViewController.swift; sourceTree = "<group>"; };
+		5B2C6A501A95005B0001EF9F /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodayViewController.swift; path = ViewControllers/TodayViewController.swift; sourceTree = "<group>"; };
+		5B2C6A521A9504560001EF9F /* Fitness-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fitness-bridging-header.h"; sourceTree = "<group>"; };
+		5B2C6A541A9504AD0001EF9F /* MNCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCalendarHeaderView.h; sourceTree = "<group>"; };
+		5B2C6A551A9504AD0001EF9F /* MNCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCalendarHeaderView.m; sourceTree = "<group>"; };
+		5B2C6A561A9504AD0001EF9F /* MNCalendarView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MNCalendarView-Prefix.pch"; sourceTree = "<group>"; };
+		5B2C6A571A9504AD0001EF9F /* MNCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCalendarView.h; sourceTree = "<group>"; };
+		5B2C6A581A9504AD0001EF9F /* MNCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCalendarView.m; sourceTree = "<group>"; };
+		5B2C6A591A9504AD0001EF9F /* MNCalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCalendarViewCell.h; sourceTree = "<group>"; };
+		5B2C6A5A1A9504AD0001EF9F /* MNCalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCalendarViewCell.m; sourceTree = "<group>"; };
+		5B2C6A5B1A9504AD0001EF9F /* MNCalendarViewDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCalendarViewDayCell.h; sourceTree = "<group>"; };
+		5B2C6A5C1A9504AD0001EF9F /* MNCalendarViewDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCalendarViewDayCell.m; sourceTree = "<group>"; };
+		5B2C6A5D1A9504AD0001EF9F /* MNCalendarViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCalendarViewLayout.h; sourceTree = "<group>"; };
+		5B2C6A5E1A9504AD0001EF9F /* MNCalendarViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCalendarViewLayout.m; sourceTree = "<group>"; };
+		5B2C6A5F1A9504AD0001EF9F /* MNCalendarViewWeekdayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCalendarViewWeekdayCell.h; sourceTree = "<group>"; };
+		5B2C6A601A9504AD0001EF9F /* MNCalendarViewWeekdayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCalendarViewWeekdayCell.m; sourceTree = "<group>"; };
+		5B2C6A611A9504AD0001EF9F /* MNFastDateEnumeration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNFastDateEnumeration.h; sourceTree = "<group>"; };
+		5B2C6A621A9504AD0001EF9F /* MNFastDateEnumeration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNFastDateEnumeration.m; sourceTree = "<group>"; };
+		5B2C6A631A9504AD0001EF9F /* NSDate+MNAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MNAdditions.h"; sourceTree = "<group>"; };
+		5B2C6A641A9504AD0001EF9F /* NSDate+MNAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MNAdditions.m"; sourceTree = "<group>"; };
+		5B2C6A6D1A9504DB0001EF9F /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = ViewControllers/CalendarViewController.swift; sourceTree = "<group>"; };
+		5BAFCC571AAD4E1F00B599F3 /* Exercise Complete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Exercise Complete.png"; sourceTree = "<group>"; };
+		5BAFEC5A1AA30BA3004EF7DB /* workout.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = workout.mp4; sourceTree = "<group>"; };
+		5BB40E4E1A92131E00F45CB0 /* Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB40E521A92131E00F45CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB40E531A92131E00F45CB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BB40E581A92131E00F45CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BB40E5A1A92131E00F45CB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BB40E5D1A92131E00F45CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5BB40E631A92131E00F45CB0 /* FitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB40E681A92131E00F45CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB40E691A92131E00F45CB0 /* FitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTests.swift; sourceTree = "<group>"; };
+		5BB40E841A92197300F45CB0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
+		5BB40E861A921DC500F45CB0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ViewControllers/SettingsViewController.swift; sourceTree = "<group>"; };
+		5BB40E881A92271C00F45CB0 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsTableViewCell.swift; path = cells/SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		7E36063B1BDD80C700B85C9B /* Workouts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Workouts.png; path = fitness/Workouts.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BB40E4B1A92131E00F45CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB40E601A92131E00F45CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2C6A531A9504AD0001EF9F /* MNCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				5B2C6A541A9504AD0001EF9F /* MNCalendarHeaderView.h */,
+				5B2C6A551A9504AD0001EF9F /* MNCalendarHeaderView.m */,
+				5B2C6A561A9504AD0001EF9F /* MNCalendarView-Prefix.pch */,
+				5B2C6A571A9504AD0001EF9F /* MNCalendarView.h */,
+				5B2C6A581A9504AD0001EF9F /* MNCalendarView.m */,
+				5B2C6A591A9504AD0001EF9F /* MNCalendarViewCell.h */,
+				5B2C6A5A1A9504AD0001EF9F /* MNCalendarViewCell.m */,
+				5B2C6A5B1A9504AD0001EF9F /* MNCalendarViewDayCell.h */,
+				5B2C6A5C1A9504AD0001EF9F /* MNCalendarViewDayCell.m */,
+				5B2C6A5D1A9504AD0001EF9F /* MNCalendarViewLayout.h */,
+				5B2C6A5E1A9504AD0001EF9F /* MNCalendarViewLayout.m */,
+				5B2C6A5F1A9504AD0001EF9F /* MNCalendarViewWeekdayCell.h */,
+				5B2C6A601A9504AD0001EF9F /* MNCalendarViewWeekdayCell.m */,
+				5B2C6A611A9504AD0001EF9F /* MNFastDateEnumeration.h */,
+				5B2C6A621A9504AD0001EF9F /* MNFastDateEnumeration.m */,
+				5B2C6A631A9504AD0001EF9F /* NSDate+MNAdditions.h */,
+				5B2C6A641A9504AD0001EF9F /* NSDate+MNAdditions.m */,
+			);
+			path = MNCalendarView;
+			sourceTree = "<group>";
+		};
+		5BB40E451A92131E00F45CB0 = {
+			isa = PBXGroup;
+			children = (
+				5BB40E501A92131E00F45CB0 /* Fitness */,
+				5BB40E661A92131E00F45CB0 /* FitnessTests */,
+				5BB40E4F1A92131E00F45CB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BB40E4F1A92131E00F45CB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BB40E4E1A92131E00F45CB0 /* Fitness.app */,
+				5BB40E631A92131E00F45CB0 /* FitnessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BB40E501A92131E00F45CB0 /* Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				7E36063B1BDD80C700B85C9B /* Workouts.png */,
+				5BAFCC571AAD4E1F00B599F3 /* Exercise Complete.png */,
+				5BAFEC5A1AA30BA3004EF7DB /* workout.mp4 */,
+				5B2C6A531A9504AD0001EF9F /* MNCalendarView */,
+				5BB40E531A92131E00F45CB0 /* AppDelegate.swift */,
+				5BB40E841A92197300F45CB0 /* LoginViewController.swift */,
+				5BB40E861A921DC500F45CB0 /* SettingsViewController.swift */,
+				5BB40E881A92271C00F45CB0 /* SettingsTableViewCell.swift */,
+				5B0BB2601A9314BD007544CC /* StartViewController.swift */,
+				5B2C6A4E1A94FCE10001EF9F /* TrackWeightViewController.swift */,
+				5B2C6A501A95005B0001EF9F /* TodayViewController.swift */,
+				5B2C6A6D1A9504DB0001EF9F /* CalendarViewController.swift */,
+				5BB40E571A92131E00F45CB0 /* Main.storyboard */,
+				5B2C6A521A9504560001EF9F /* Fitness-bridging-header.h */,
+				5BB40E5A1A92131E00F45CB0 /* Images.xcassets */,
+				5BB40E5C1A92131E00F45CB0 /* LaunchScreen.xib */,
+				5BB40E511A92131E00F45CB0 /* Supporting Files */,
+			);
+			path = Fitness;
+			sourceTree = "<group>";
+		};
+		5BB40E511A92131E00F45CB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BB40E521A92131E00F45CB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BB40E661A92131E00F45CB0 /* FitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BB40E691A92131E00F45CB0 /* FitnessTests.swift */,
+				5BB40E671A92131E00F45CB0 /* Supporting Files */,
+			);
+			path = FitnessTests;
+			sourceTree = "<group>";
+		};
+		5BB40E671A92131E00F45CB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BB40E681A92131E00F45CB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BB40E4D1A92131E00F45CB0 /* Fitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB40E6D1A92131E00F45CB0 /* Build configuration list for PBXNativeTarget "Fitness" */;
+			buildPhases = (
+				5BB40E4A1A92131E00F45CB0 /* Sources */,
+				5BB40E4B1A92131E00F45CB0 /* Frameworks */,
+				5BB40E4C1A92131E00F45CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitness;
+			productName = Fitness;
+			productReference = 5BB40E4E1A92131E00F45CB0 /* Fitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BB40E621A92131E00F45CB0 /* FitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB40E701A92131E00F45CB0 /* Build configuration list for PBXNativeTarget "FitnessTests" */;
+			buildPhases = (
+				5BB40E5F1A92131E00F45CB0 /* Sources */,
+				5BB40E601A92131E00F45CB0 /* Frameworks */,
+				5BB40E611A92131E00F45CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB40E651A92131E00F45CB0 /* PBXTargetDependency */,
+			);
+			name = FitnessTests;
+			productName = FitnessTests;
+			productReference = 5BB40E631A92131E00F45CB0 /* FitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BB40E461A92131E00F45CB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = RajkumarSharma;
+				TargetAttributes = {
+					5BB40E4D1A92131E00F45CB0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					5BB40E621A92131E00F45CB0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 5BB40E4D1A92131E00F45CB0;
+					};
+				};
+			};
+			buildConfigurationList = 5BB40E491A92131E00F45CB0 /* Build configuration list for PBXProject "fitness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BB40E451A92131E00F45CB0;
+			productRefGroup = 5BB40E4F1A92131E00F45CB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BB40E4D1A92131E00F45CB0 /* Fitness */,
+				5BB40E621A92131E00F45CB0 /* FitnessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BB40E4C1A92131E00F45CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAFEC5B1AA30BA3004EF7DB /* workout.mp4 in Resources */,
+				5BB40E591A92131E00F45CB0 /* Main.storyboard in Resources */,
+				5BAFCC581AAD4E1F00B599F3 /* Exercise Complete.png in Resources */,
+				5BB40E5E1A92131E00F45CB0 /* LaunchScreen.xib in Resources */,
+				5BB40E5B1A92131E00F45CB0 /* Images.xcassets in Resources */,
+				7E36063C1BDD80C700B85C9B /* Workouts.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB40E611A92131E00F45CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BB40E4A1A92131E00F45CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2C6A6E1A9504DB0001EF9F /* CalendarViewController.swift in Sources */,
+				5B2C6A4F1A94FCE10001EF9F /* TrackWeightViewController.swift in Sources */,
+				5B2C6A511A95005B0001EF9F /* TodayViewController.swift in Sources */,
+				5B2C6A681A9504AD0001EF9F /* MNCalendarViewDayCell.m in Sources */,
+				5B2C6A6C1A9504AD0001EF9F /* NSDate+MNAdditions.m in Sources */,
+				5B2C6A651A9504AD0001EF9F /* MNCalendarHeaderView.m in Sources */,
+				5B2C6A661A9504AD0001EF9F /* MNCalendarView.m in Sources */,
+				5B0BB2611A9314BD007544CC /* StartViewController.swift in Sources */,
+				5B2C6A6B1A9504AD0001EF9F /* MNFastDateEnumeration.m in Sources */,
+				5B2C6A671A9504AD0001EF9F /* MNCalendarViewCell.m in Sources */,
+				5B2C6A6A1A9504AD0001EF9F /* MNCalendarViewWeekdayCell.m in Sources */,
+				5B2C6A691A9504AD0001EF9F /* MNCalendarViewLayout.m in Sources */,
+				5BB40E851A92197300F45CB0 /* LoginViewController.swift in Sources */,
+				5BB40E541A92131E00F45CB0 /* AppDelegate.swift in Sources */,
+				5BB40E891A92271C00F45CB0 /* SettingsTableViewCell.swift in Sources */,
+				5BB40E871A921DC500F45CB0 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB40E5F1A92131E00F45CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB40E6A1A92131E00F45CB0 /* FitnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BB40E651A92131E00F45CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB40E4D1A92131E00F45CB0 /* Fitness */;
+			targetProxy = 5BB40E641A92131E00F45CB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BB40E571A92131E00F45CB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BB40E581A92131E00F45CB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BB40E5C1A92131E00F45CB0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BB40E5D1A92131E00F45CB0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BB40E6B1A92131E00F45CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BB40E6C1A92131E00F45CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BB40E6E1A92131E00F45CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Fitness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Motiv8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fitness/Fitness-bridging-header.h";
+			};
+			name = Debug;
+		};
+		5BB40E6F1A92131E00F45CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Fitness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Motiv8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fitness/Fitness-bridging-header.h";
+			};
+			name = Release;
+		};
+		5BB40E711A92131E00F45CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FitnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness.app/Fitness";
+			};
+			name = Debug;
+		};
+		5BB40E721A92131E00F45CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FitnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness.app/Fitness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BB40E491A92131E00F45CB0 /* Build configuration list for PBXProject "fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB40E6B1A92131E00F45CB0 /* Debug */,
+				5BB40E6C1A92131E00F45CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB40E6D1A92131E00F45CB0 /* Build configuration list for PBXNativeTarget "Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB40E6E1A92131E00F45CB0 /* Debug */,
+				5BB40E6F1A92131E00F45CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB40E701A92131E00F45CB0 /* Build configuration list for PBXNativeTarget "FitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB40E711A92131E00F45CB0 /* Debug */,
+				5BB40E721A92131E00F45CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BB40E461A92131E00F45CB0 /* Project object */;
+}
